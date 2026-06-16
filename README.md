@@ -1,130 +1,130 @@
 # 🎬 Netflix Clone
 
-A responsive **Netflix landing page clone** built using **HTML, CSS, and JavaScript**.
+A pixel-perfect clone of the Netflix India landing page built with pure **HTML** and **CSS** — no frameworks, no libraries.
 
-This project recreates the modern Netflix homepage UI with a focus on clean design, responsive layout, and smooth user interactions. It was built as a frontend practice project to improve my skills in layout design, styling, and DOM manipulation.
+![Netflix Clone Preview](assets/hero-bg.jpg)
+
+---
+
+## 🌐 Live Demo
+
+> Coming soon — deploy on [GitHub Pages](https://pages.github.com/) or [Vercel](https://vercel.com/)
 
 ---
 
 ## ✨ Features
 
-* 🎥 Hero section with Netflix-style banner
-* 🔥 Trending movies slider
-* 💎 “More Reasons to Join” feature cards
-* ❓ Interactive FAQ accordion
-* 📱 Fully responsive design
-* 🎨 Clean UI with smooth hover effects
-* 🌙 Dark Netflix-inspired theme
+- 🎨 **Hero Section** — Full-screen background with email signup CTA
+- 🔥 **Trending Now** — Horizontally scrollable poster slider with numbered rankings
+- 📋 **More Reasons to Join** — 4-card feature grid (TV, Download, Watch Everywhere, Kids)
+- ❓ **FAQ Accordion** — Animated open/close questions with JavaScript
+- 📧 **Email CTA** — Second signup prompt above the footer
+- 🦶 **Footer** — Full Netflix-style footer with 4-column link grid and language selector
+- 📱 **Responsive Design** — Works on mobile, tablet, and desktop
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Built With
 
-* **HTML5**
-* **CSS3**
-* **JavaScript (Vanilla JS)**
+| Technology | Usage |
+|---|---|
+| HTML5 | Page structure & semantics |
+| CSS3 | Styling, flexbox, grid, animations |
+| JavaScript (Vanilla) | FAQ accordion toggle |
+| Google Fonts | Martel Sans + Poppins |
 
 ---
 
-## 📸 Preview
+## 📁 Project Structure
 
-### Homepage
-
-* Hero banner
-* Trending section
-* Feature cards
-* FAQ section
-* Footer
-
-> Add screenshots here later for better presentation.
-
-Example:
-
-```md
-![Homepage Screenshot](assets/screenshot.png)
 ```
-
----
-
-## 📂 Project Structure
-
-```bash
 netflix-clone/
 │
-├── assets/
-│   ├── hero-bg.jpg
-│   ├── Netflix_Logo_PMS.png
-│   ├── Poster_1.webp
-│   └── ...
+├── index.html          # Main HTML file
+├── style.css           # All styles
 │
-├── index.html
-├── style.css
-└── README.md
+└── assets/
+    ├── hero-bg.jpg         # Hero background image
+    ├── Netflix_Logo_PMS.png # Netflix logo
+    ├── Poster_1.webp        # Movie posters (1–8)
+    ├── Poster_2.webp
+    ├── ...
+    ├── ic_1.png             # Feature icons (TV, Download, etc.)
+    ├── ic_2.png
+    ├── ic_3.png
+    └── ic_4.png
 ```
 
 ---
 
 ## 🚀 Getting Started
 
-1. Clone the repository
-
+### Option 1 — Open directly in browser
 ```bash
-git clone https://github.com/YOUR_USERNAME/netflix-clone.git
+# Just double-click index.html
+# or right-click → Open with → your browser
 ```
 
-2. Open project folder
+### Option 2 — VS Code Live Server
+1. Install the **Live Server** extension in VS Code
+2. Right-click `index.html` → **Open with Live Server**
+3. Opens at `http://127.0.0.1:5500`
 
+### Option 3 — Python local server
 ```bash
-cd netflix-clone
+# Python 3
+python -m http.server 8000
+
+# Then open http://localhost:8000
 ```
 
-3. Run the project
-   Simply open `index.html` in your browser.
+---
+
+## 📸 Screenshots
+
+| Section | Preview |
+|---|---|
+| Hero | Full-screen background with email input |
+| Trending | Horizontal poster scroll with large numbers |
+| Features | Dark gradient cards with icons |
+| FAQ | Accordion-style animated questions |
+| Footer | 4-column link grid |
 
 ---
 
 ## 🎯 What I Learned
 
-Through this project, I practiced:
-
-* Advanced CSS layouts using Flexbox
-* Responsive web design
-* Positioning and layering elements
-* Hover animations and transitions
-* JavaScript DOM manipulation
-* Building real-world UI clones
+- CSS `position: absolute/relative` for layered overlays
+- CSS `overflow-x: auto` + `scrollbar-width: none` for custom sliders
+- `-webkit-text-stroke` for outlined number text
+- CSS `max-height` transition trick for smooth accordion animation
+- `clamp()` for fluid responsive typography
+- CSS Grid for multi-column footer layout
 
 ---
 
 ## 🔮 Future Improvements
 
-* Add horizontal scroll buttons for movie slider
-* Add smoother animations
-* Improve mobile responsiveness
-* Add real movie data using API
-* Convert into React version
-
----
-
-## ⚠️ Disclaimer
-
-This project is created **for educational purposes only**.
-
-Netflix branding, logo, and media assets belong to Netflix.
-This repository is **not affiliated with or endorsed by Netflix**.
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
+- [ ] Add a working login/signup page
+- [ ] Integrate TMDB API for real movie data
+- [ ] Add hover preview cards like real Netflix
+- [ ] Build a video player page
+- [ ] Make it a full React app
 
 ---
 
 ## 👨‍💻 Author
 
 **Darshan**
+- GitHub: [@yourusername](https://github.com/yourusername)
 
-GitHub: https://github.com/Darshan-38
+---
 
-If you like this project, feel free to ⭐ the repository!
+## 📄 License
+
+This project is for **educational purposes only**.  
+Netflix is a registered trademark of Netflix, Inc. This clone is not affiliated with or endorsed by Netflix.
+
+---
+
+⭐ If you found this helpful, consider giving it a star on GitHub!
